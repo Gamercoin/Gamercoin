@@ -1,4 +1,10 @@
-Feathercoin - Open Source cryptographic Internet currency
+Gamecoin
+========
+Gamecoin ist die neue Online- Währung. Jeder profitiert von dieser Währung die der Softwarepiraterie durch gute Kommunikation von Spielern oder Spielherstellern ein Ende setzt. Der Wert steigt, also verwandle noch heute deinen PC in eine virtuelle Brieftasche und sichere dir deine ersten Coins!
+--------
+Gamecoin is the new Gaming Online-Currency. It's designed and made for players and game developers to improve their communication to prevent game piracy. This currency's value is rising, so don't miss the chance to collect your first coins today!
+
+Gamecoin - Open Source cryptographic Internet currency
  - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
  - ~336 million total coins
@@ -8,7 +14,7 @@ Feathercoin - Open Source cryptographic Internet currency
  
 Download
 
-https://www.feathercoin.com/
+https://www.gamecoin.tk/
 
 Development process
 ===================
@@ -23,7 +29,7 @@ or are controversial.
 
 The master branch is regularly built and tested, but is not guaranteed
 to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of Feathercoin.
+official, stable release versions of Gamecoin.
 
 Feature branches are created when there are major new features being
 worked on by several people.
@@ -38,4 +44,4 @@ Issues with no commits will be given a similar warning, and closed after
 15 days from their last activity. Issues closed in this manner will be 
 labeled 'stale'. 
 
-Check out http://www.feathercoin.com for more info about the development.
+Check out http://www.gamecoin.tk for more info about the development.
