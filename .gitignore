@@ -3,6 +3,10 @@ src/feathercoin
 src/feathercoind
 src/test_feathercoin
 src/build.h
+build
+debug
+release
+libs
 .*.swp
 *.*~*
 *.bak
