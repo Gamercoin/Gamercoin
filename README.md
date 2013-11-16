@@ -4,7 +4,7 @@ Gamecoin
 Introduction
 
 Gamecoin ist die neue Online- Währung. Jeder profitiert von dieser Währung die der Softwarepiraterie durch gute Kommunikation von Spielern oder Spielherstellern ein Ende setzt. Der Wert steigt, also verwandle noch heute deinen PC in eine virtuelle Brieftasche und sichere dir deine ersten Coins!
---------
+
 Gamecoin is the new Gaming Online-Currency. It's designed and made for players and game developers to improve their communication to prevent game piracy. This currency's value is rising, so don't miss the chance to collect your first coins today!
 
 Gamecoin - Open Source cryptographic Internet currency
