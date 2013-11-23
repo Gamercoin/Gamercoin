@@ -31,7 +31,6 @@
 @echo.
 @echo.
 @strip %COINNAME%d.exe
-@rem strip litecoind.exe
 @if errorlevel 1 goto error
 @echo !!!!!!! %COINNAME% daemon DONE: Find %COINNAME%d.exe in ./src :)
 @echo.

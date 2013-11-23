@@ -18,10 +18,10 @@
 #endif
 
 #ifdef USE_UPNP
-#include <miniupnpc/miniwget.h>
-#include <miniupnpc/miniupnpc.h>
-#include <miniupnpc/upnpcommands.h>
-#include <miniupnpc/upnperrors.h>
+#include <miniwget.h>
+#include <miniupnpc.h>
+#include <upnpcommands.h>
+#include <upnperrors.h>
 #endif
 
 using namespace std;
@@ -1143,10 +1143,13 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"feathercoin.com", "dnsseed.feathercoin.com"},
-    {"altcointech.net", "dnsseed.fc.altcointech.net"},
-    {"alltheco.in", "dnsseed.alltheco.in"},
-	{"btcltcftc.com", "dnsseed.btcltcftc.com"},
+    {"gamecoin.tk", "gamecoinseed.tk"},
+    {"node27.host1free.com", "node27.host1free.com"},
+    {"80.138.23.181", "80.138.23.181"},
+//    {"feathercoin.com", "dnsseed.feathercoin.com"},
+//    {"altcointech.net", "dnsseed.fc.altcointech.net"},
+//    {"alltheco.in", "dnsseed.alltheco.in"},
+//    {"btcltcftc.com", "dnsseed.btcltcftc.com"},
 };
 
 void ThreadDNSAddressSeed(void* parg)

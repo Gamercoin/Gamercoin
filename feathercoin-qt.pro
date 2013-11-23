@@ -318,7 +318,7 @@ isEmpty(BOOST_INCLUDE_PATH) {
 }
 
 windows:LIBS += -lshlwapi
-windows:DEFINES += WIN32
+windows:DEFINES += WIN32 WIN32_LEAN_AND_MEAN
 windows:RC_FILE = src/qt/res/bitcoin-qt.rc
 
 windows:!contains(MINGW_THREAD_BUGFIX, 0) {

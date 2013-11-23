@@ -30,7 +30,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x12a765e31ffd4059bada1e25190f6e98c99d9714d334efa41a195a7e7e04bfe2");
+uint256 hashGenesisBlock("0x0a2e3d22062632afa9c5143a41365a3914b6e198ba1879379083c06dffacf31d");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Feathercoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -829,15 +829,15 @@ uint256 static GetOrphanRoot(const CBlock* pblock)
 
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
-    int64 nSubsidy = 200 * COIN;
+    int64 nSubsidy = 50 * COIN;
 
-    nSubsidy >>= (nHeight / 840000);
+    nSubsidy >>= (nHeight / 420000);
 
     return nSubsidy + nFees;
 }
 
-int nTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
-static const int nTargetSpacing = 2.5 * 60; // 2.5 minutes
+int nTargetTimespan = 7 * 24 * 60 * 60; // 3.5 days // 7
+static const int nTargetSpacing = 5 * 60; // 2.5 minutes // 5
 
 //
 // minimum amount of work that could possibly be required nTime after
@@ -2084,7 +2084,7 @@ bool LoadBlockIndex(bool fAllowNew)
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "NY Times 05/Oct/2011 Steve Jobs, Apple’s Visionary, Dies at 56";
+        const char* pszTimestamp = "Die Welt 03/Nov/2013 Ein Abkommen gegen Industriespionage?";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2096,9 +2096,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1317972665;
+        block.nTime    = 1383570156;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 2084524493;
+        block.nNonce   = 545220;
 
         if (fTestNet)
         {
@@ -2110,7 +2110,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("%s\n", block.GetHash().ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x97ddfbbae6be97fd6cdf3e7ca13232a3afff2353e29badfab7f73011edd4ced9"));
+        assert(block.hashMerkleRoot == uint256("0xf5eb09c565d99c9716bf653079c69e1ad4dcaceb839c58888ab7ab445ffbcb91"));
 
         // If genesis block hash does not match, then generate new genesis hash.
         if (false && block.GetHash() != hashGenesisBlock)
