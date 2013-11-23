@@ -28,8 +28,8 @@ rem IF EXIST %FileToDelete% del /F %FileToDelete%
 rem SET FileToDelete="..\..\release\*"
 rem IF EXIST %FileToDelete% del /F %FileToDelete%
 
-SET FileToDelete="..\..\release\qrc_bitcoin.cpp"
-IF EXIST %FileToDelete% del /F %FileToDelete%
+rem SET FileToDelete="..\..\release\qrc_bitcoin.cpp"
+rem IF EXIST %FileToDelete% del /F %FileToDelete%
 
 SET FileToDelete="..\..\src\obj\*.o"
 IF EXIST %FileToDelete% del /F %FileToDelete%
