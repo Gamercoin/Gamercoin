@@ -18,7 +18,7 @@ libs
 #compilation and Qt preprocessor part
 *.qm
 Makefile
-feathercoin-qt
+gamecoin-qt
 #resources cpp
 qrc_*.cpp
 #qt creator

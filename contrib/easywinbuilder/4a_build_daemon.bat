@@ -30,7 +30,8 @@
 @if errorlevel 1 goto error
 @echo.
 @echo.
-@strip %COINNAME%d.exe
+@rem strip %COINNAME%d.exe
+@strip gamecoind.exe
 @if errorlevel 1 goto error
 @echo !!!!!!! %COINNAME% daemon DONE: Find %COINNAME%d.exe in ./src :)
 @echo.
