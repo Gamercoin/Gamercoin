@@ -1,11 +1,11 @@
-Gamecoin
+Gamercoin
 ========
 
-Gamecoin ist die neue Online- Währung. Jeder profitiert von dieser Währung die der Softwarepiraterie durch gute Kommunikation von Spielern und Spielherstellern ein Ende setzt. Der Wert steigt, also verwandle noch heute deinen PC in eine virtuelle Brieftasche und sichere dir deine ersten Coins!
+Gamercoin ist die neue Online- Währung. Jeder profitiert von dieser Währung die der Softwarepiraterie durch gute Kommunikation von Spielern und Spielherstellern ein Ende setzt. Der Wert steigt, also verwandle noch heute deinen PC in eine virtuelle Brieftasche und sichere dir deine ersten Coins!
 
-Gamecoin is the new Gaming Online-Currency. It's designed and made for players and game developers to improve their communication to prevent game piracy. This currency's value is rising, so don't miss the chance to collect your first coins today!
+Gamercoin is the new Gaming Online-Currency. It's designed and made for players and game developers to improve their communication to prevent game piracy. This currency's value is rising, so don't miss the chance to collect your first coins today!
 
-Gamecoin - Open Source cryptographic Internet currency
+Gamercoin - Open Source cryptographic Internet currency
  - 5 minute block targets
  - subsidy halves in 420k blocks (~4 years)
  - ~84 million total coins
@@ -15,7 +15,7 @@ Gamecoin - Open Source cryptographic Internet currency
  
 Download
 
-https://www.gamecoin.tk/
+https://www.gamercoin.tk/
 
 Development process
 ===================
