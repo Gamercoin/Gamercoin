@@ -3,7 +3,7 @@ Gamercoin
 
 Gamercoin ist die neue Online- Währung. Jeder profitiert von dieser Währung die der Softwarepiraterie durch gute Kommunikation von Spielern und Spielherstellern ein Ende setzt. Der Wert steigt, also verwandle noch heute deinen PC in eine virtuelle Brieftasche und sichere dir deine ersten Coins!
 
-Gamercoin is the new Gaming Online-Currency. It's designed and made for players and game developers to improve their communication to prevent game piracy. This currency's value is rising, so don't miss the chance to collect your first coins today!
+Gamercoin is the new Gaming Online-Currency. It's designed and made for gamers and game developers to improve their communication to prevent game piracy. This currency's value is rising, so don't miss the chance to collect your first coins today!
 
 Gamercoin - Open Source cryptographic Internet currency
  - 5 minute block targets
@@ -12,7 +12,7 @@ Gamercoin - Open Source cryptographic Internet currency
  - 50 coins per block
  - 126 blocks to retarget difficulty with 504 sample and .25 damping
  - ~9% maximum change on difficulty retarget
- 
+
 Download
 
 https://www.gamercoin.tk/
